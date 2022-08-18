@@ -302,7 +302,6 @@
                 if (this.fileTarList.length == 0) {
                     return this.$message.error('please select uploading m-file')
                 }
-                // TODO: 通过 Rules 实现
                 if (this.xasInfo.ce == '') {
                     return this.$message.error('please input Column Energy')
                 }

@@ -330,7 +330,7 @@
                         this.$http.delete("/user/delete?user_id=" + row.id)
                             .then((res) => {
                                 this.getUserList()
-                                return this.$message.success(row.name + " 删除成功")
+                                return this.$message.success(row.name + " is deleted successfully！")
                             })
                             .catch((err) => {
                                 return this.$message.error(err.toString())
